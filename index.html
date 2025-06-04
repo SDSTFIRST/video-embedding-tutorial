@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Embed YouTube Video Tutorial</title>
+    <title>How to Embed a YouTube Video</title>
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
@@ -14,33 +13,36 @@
     <main>
         <section>
             <h2>Step 1: Find the YouTube Video</h2>
-            <p>Go to the video you want to embed. Click the "Share" button under the video.</p>
+            <p>Go to YouTube and find the video you want to embed. Click the "Share" button under the video.</p>
             <img src="images/step1.png" alt="Clicking Share button">
         </section>
 
         <section>
             <h2>Step 2: Click Embed</h2>
-            <p>Click on the 'Embed' option from the popup that appears.</p>
+            <p>From the share options, click on the "Embed" button.</p>
             <img src="images/step2.png" alt="Clicking Embed option">
         </section>
 
         <section>
             <h2>Step 3: Copy the Embed Code</h2>
-            <p>Click the "Copy" button to copy the iframe embed code to your clipboard.</p>
+            <p>Copy the embed code provided in the box.</p>
             <img src="images/step3.png" alt="Copy embed code">
         </section>
 
         <section>
-            <h2>Step 4: Paste it into Your HTML</h2>
-            <p>Paste the embed code inside the body of your HTML page, like this:</p>
+            <h2>Step 4: Paste into Your HTML</h2>
+            <p>Paste the copied code inside the &lt;body&gt; section of your HTML file. It should look like this:</p>
             <pre>
-&lt;iframe width="560" height="315" 
-src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
-title="YouTube video player" frameborder="0" 
-allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ly36kn0ug4k?si=D-xHgPowkUeJ8HFs"
+title="YouTube video player" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
             </pre>
-            <p>Here’s how it looks when embedded:</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+            <p>Here is the video embedded below:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ly36kn0ug4k?si=D-xHgPowkUeJ8HFs"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
     </main>
 </body>
